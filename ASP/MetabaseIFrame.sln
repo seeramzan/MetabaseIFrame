@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(1)", "WebSite1\", "{920564C9-C9ED-4874-B656-54B4EA17F638}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{ab51c93f-c368-4c76-9ef2-f0bda32ab238}|JWT.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55220"
+		Debug.AspNetCompiler.PhysicalPath = "WebSite1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55220\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55220"
+		Release.AspNetCompiler.PhysicalPath = "WebSite1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55220\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55220"
+		SlnRelativePath = "WebSite1\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{513CE2B5-E0D6-43BC-998A-A02CB2875479}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\jwt-master\jwt-master\.editorconfig = ..\..\..\Downloads\jwt-master\jwt-master\.editorconfig
+		..\..\..\Downloads\jwt-master\jwt-master\.gitignore = ..\..\..\Downloads\jwt-master\jwt-master\.gitignore
+		..\..\..\Downloads\jwt-master\jwt-master\README.md = ..\..\..\Downloads\jwt-master\jwt-master\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWT", "..\jwt-master\src\JWT\JWT.csproj", "{AB51C93F-C368-4C76-9EF2-F0BDA32AB238}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{920564C9-C9ED-4874-B656-54B4EA17F638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920564C9-C9ED-4874-B656-54B4EA17F638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920564C9-C9ED-4874-B656-54B4EA17F638}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{920564C9-C9ED-4874-B656-54B4EA17F638}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AB51C93F-C368-4C76-9EF2-F0BDA32AB238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB51C93F-C368-4C76-9EF2-F0BDA32AB238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB51C93F-C368-4C76-9EF2-F0BDA32AB238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB51C93F-C368-4C76-9EF2-F0BDA32AB238}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56F4FFF2-1DC2-4F89-B891-7FAFD97D8C60}
+	EndGlobalSection
+EndGlobal
